@@ -1,16 +1,14 @@
 # QR code generator
 
-This is a simple QR code generator written in Python. To use it, simply run the following command:
-
-python generate_qrcode.py
+This is a simple QR code generator written in Python. 
 
 The script will generate a QR code for the link you provide and save it to a file called qr_code.png. You can then open the file in any image viewer to see the QR code.
 
 Example:
 
-python generate_qrcode.py https://www.google.com/
+python generate_qrcode.py https://www.mylink.com/
 
-This will generate a QR code for the Google homepage. You can then open the qr_code.png file in any image viewer to see the QR code.
+This will generate a QR code for https://www.mylink.com/. You can then open the qr_code.png file in any image viewer to see the QR code.
 
 Customization:
 
@@ -20,11 +18,4 @@ Usage:
 
 This QR code generator can be used to generate QR codes for any type of link, such as a website, email, contact information, or even a text message. You can also use it to generate QR codes for QR code-based payment systems.
 
-To prepare your code for GitHub:
 
-Create a new repository on GitHub.
-Clone the repository to your local machine.
-Copy your QR code generator code to the repository.
-Create a new file called README.md and paste the above content into it.
-Commit your changes and push them to GitHub.
-Once you have pushed your changes to GitHub, your QR code generator code will be available to anyone who clones your repository.
